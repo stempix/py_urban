@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3192b69-7372-4a2c-bc3a-a579171e53b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/dictionaries_sets/module_1_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/module_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.module_1.executor": "Run",
     "Python.module_1_3.executor": "Run",
     "Python.module_1_4.executor": "Run",
     "Python.module_1_6.executor": "Run",
