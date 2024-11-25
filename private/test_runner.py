@@ -3,11 +3,14 @@ from inspect import isfunction, ismethod
 from io import StringIO
 import sys
 
+def __compare_output(output, expect):
+    output.seek(0)
+    return output.read().replace('\n', '\t').strip() == expect.strip()
+
 # Первоначальная реализация для личного пользования.
 # Будет дополняться по мере необходимости.
 # Пока используются следующие допущения:
-#   1. Тестируются только функции с аргументами;
-#   2. Элементы test_data - списки или кортежи с аргументами функции.
+#   1. Элементы test_data - списки или кортежи с аргументами функции.
 
 def test_runner(
         test_data = None,
@@ -18,11 +21,31 @@ def test_runner(
     if not isfunction(func) and not ismethod(func):
         print("Bad 'func' argument!")
         exit()
+
+    print(f"Test of function {func.__name__}:")
+    if not test_data:
+        if not test_output_expect and not test_return_expect:
+            print("\tUseless test")
+        # Stream for output
+        suppressed_output = StringIO()
+        sys.stdout = suppressed_output
+        returned_vals = func()
+        sys.stdout = sys.__stdout__
+        test_passed = True
+        if test_output_expect:
+            test_passed = __compare_output(suppressed_output, test_output_expect)
+        if test_return_expect:
+            test_passed = test_passed and returned_vals == test_return_expect
+        if test_passed:
+            print("TEST PASSED!")
+        else:
+            print("TEST FAILED!")
+        return
     passed_cnt, failed_cnt, total_cnt = 0, 0, len(test_data)
     for test_idx in range(total_cnt):
         print(f"Test {test_idx + 1}:")
         print(f"\tData: {test_data[test_idx]}")
-        # Suppressing the output
+        # Stream for output
         suppressed_output = StringIO()
         sys.stdout = suppressed_output
         # Testing func run
@@ -37,8 +60,7 @@ def test_runner(
             if len(test_data) != len(test_output_expect):
                 print("Bad test output expect data!")
                 exit()
-            suppressed_output.seek(0)
-            test_passed = suppressed_output.read().replace('\n', '\t').strip() == test_output_expect[test_idx].strip()
+            test_passed = __compare_output(suppressed_output, test_output_expect[test_idx])
         if not test_result is None:
             print(f"\tReturned value: {test_result}")
         if test_return_expect:
