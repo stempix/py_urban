@@ -7,6 +7,7 @@
     <list default="true" id="d3192b69-7372-4a2c-bc3a-a579171e53b2" name="Changes" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/homework/module_5/dunder_methods/module_5_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
@@ -20,6 +21,8 @@
 =======
 =======
 >>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
+=======
+>>>>>>> 6d46f09 (UrTube homework completion)
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -27,11 +30,14 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ba3d6e5 (UrTube homework completion)
       <change beforePath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/homework/module_5/module_5_hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> f500663 (UrTube homework completion)
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" afterDir="false" />
@@ -43,7 +49,12 @@
 =======
       <change beforePath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" afterDir="false" />
 >>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+<<<<<<< HEAD
 >>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
+=======
+=======
+>>>>>>> ba3d6e5 (UrTube homework completion)
+>>>>>>> 6d46f09 (UrTube homework completion)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +123,7 @@
 =======
     "Python.module_5_3.executor": "Run",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Python.module_5_4.executor": "Run",
     "Python.module_5_hard.executor": "Run",
 <<<<<<< HEAD
@@ -119,7 +131,14 @@
 =======
 =======
 >>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+<<<<<<< HEAD
 >>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
+=======
+=======
+    "Python.module_5_4.executor": "Run",
+    "Python.module_5_hard.executor": "Run",
+>>>>>>> ba3d6e5 (UrTube homework completion)
+>>>>>>> 6d46f09 (UrTube homework completion)
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
