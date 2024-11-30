@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3192b69-7372-4a2c-bc3a-a579171e53b2" name="Changes" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/homework/module_5/dunder_methods/module_5_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
@@ -17,6 +18,8 @@
 =======
 >>>>>>> 3da4239 (Object attributes and methods homework correcting)
 =======
+=======
+>>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -34,7 +37,13 @@
       <change beforePath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/module_5/operator_overloading/module_5_3.py" afterDir="false" />
 >>>>>>> bbfab42 (Operators overloading homework correcting)
 >>>>>>> 2276862 (Operators overloading homework correcting)
+<<<<<<< HEAD
 >>>>>>> a51e3fd (Operator overloading homework completion)
+=======
+=======
+      <change beforePath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/module_5/cls_obj_attrs/module_5_4.py" afterDir="false" />
+>>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+>>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +73,17 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> a51e3fd (Operator overloading homework completion)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+>>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Debug",
@@ -95,9 +111,15 @@
 <<<<<<< HEAD
 =======
     "Python.module_5_3.executor": "Run",
+<<<<<<< HEAD
     "Python.module_5_4.executor": "Run",
     "Python.module_5_hard.executor": "Run",
+<<<<<<< HEAD
 >>>>>>> a51e3fd (Operator overloading homework completion)
+=======
+=======
+>>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+>>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
@@ -114,6 +136,7 @@
     "git-widget-placeholder": "Rebasing master",
     "last_opened_file_path": "/home/stempix/PycharmProjects/pythonProject/homework/homework4.py",
     "settings.editor.selected.configurable": "proofread"
+<<<<<<< HEAD
 =======
 >>>>>>> 2276862 (Operators overloading homework correcting)
 >>>>>>> a51e3fd (Operator overloading homework completion)
@@ -164,9 +187,14 @@
 =======
 >>>>>>> bbfab42 (Operators overloading homework correcting)
 >>>>>>> 2276862 (Operators overloading homework correcting)
+<<<<<<< HEAD
 >>>>>>> a51e3fd (Operator overloading homework completion)
+=======
+=======
+>>>>>>> adc00ae (Class "object" and method "__new__" homework completion)
+>>>>>>> f165b34 (Class "object" and method "__new__" homework completion)
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/private" />
